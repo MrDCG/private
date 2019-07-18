@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人简历</title>
+		<link rel="stylesheet" href="css/resume.css">
+	</head>
+	<body>
+		<form action="">
+			<div id="div1">
+				<div id="left">
+					<div id="head_img">
+						<img src="img/head_erhuo.jpg" alt="">
+						<input type="file" name="head_img" id="file">
+					</div>
+					<div id="name">
+						<input type="text" name="username" placeholder="请输入姓名" autocomplete="off">
+					</div>
+					<div id="position">
+						<h4>/求职意向/</h4>
+						<input type="text" name="position" placeholder="请输入求职意向">
+					</div>
+					<div id="information">
+						<h4>/个人信息/</h4>
+						<table id="table1">
+							<tr>
+								<td>年龄：</td>
+								<td><input type="text" name="age" placeholder="请输入您的年龄" autocomplete="off"></td>
+							</tr>
+							<tr>
+								<td>现居住地：</td>
+								<td><input type="text" name="address" placeholder="请输入您的居住地址" autocomplete="off"></td>
+							</tr>
+							<tr>
+								<td>联系电话：</td>
+								<td><input type="text" name="tel" placeholder="请输入您的联系电话" autocomplete="off"></td>
+							</tr>
+							<tr>
+								<td>电子邮箱：</td>
+								<td><input type="email" name="email" placeholder="请输入您的电子邮箱" autocomplete="off"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="skill">
+						<h4>/技能证书/</h4>
+						<div id="skill_lun">
+							<h4>语言能力：</h4>
+							<input type="text" name="skill_e" placeholder="英语" autocomplete="off"><br>
+							<input type="text" name="skill_p" placeholder="普通话" autocomplete="off">
+						</div>
+						<div id="skill_cpu">
+							<h4>计算机能力：</h4>
+							<input type="text" name="skill_1" placeholder="计算机能力1" autocomplete="off"><br>
+							<input type="text" name="skill_2" placeholder="计算机能力2" autocomplete="off">
+						</div>
+						<div id="skill_other">
+							<h4>其他能力：</h4>
+							<input type="text" name="skill_o1" placeholder="其他能力" autocomplete="off">
+						</div>
+					</div>
+				</div>
+				<div id="right">
+				<div id="header">
+					<h3>/教育背景 Education/</h3>
+					<table id="table2">
+						<tr>
+							<td><input type="text" name="school" placeholder="毕业院校" autocomplete="off"></td>
+							<td><input type="text" name="education" placeholder="学历" autocomplete="off"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><textarea rows="10" cols="50" placeholder="学习经历"></textarea></td>
+						</tr>
+					</table>
+				</div>
+				
+				<div id="main">
+					<h3>/实习经历 Internships/</h3>
+					<table id="table3">
+						<tr>
+							<td><input type="text" name="time1" placeholder="工作时间(2019-07-16)"></td>
+							<td><input type="text" name="work1" placeholder="工作地点" autocomplete="off"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><textarea rows="10" cols="50" placeholder="工作经历"></textarea></td>
+						</tr>
+					</table>
+					<table id="table4">
+						<tr>
+							<td><input type="text" name="time2" placeholder="工作时间(2019-07-16)"></td>
+							<td><input type="text" name="work2" placeholder="工作地点" autocomplete="off"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><textarea rows="10" cols="50" placeholder="工作经历"></textarea></td>
+						</tr>
+					</table>
+				</div>
+				<div id="footer">
+					<h3>/自我评价 Evalution/</h3>
+					<table id="table5">
+						<tr>
+							<td colspan="2"><textarea rows="4" cols="50" placeholder="自我评价"></textarea></td>
+						</tr>
+					</table>
+				</div>
+				</div>
+				<div id="sub">
+					<input type="submit" value="提交"><input type="reset"value="重置">
+					
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
